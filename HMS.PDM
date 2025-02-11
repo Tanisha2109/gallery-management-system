@@ -1,0 +1,131 @@
+[Root]
+Most Recent Package=Setup
+
+
+[Package|Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\tinny\HMS\Setup
+
+[Package|Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup|Files Found]
+
+[Package|Setup|Files Released]
+
+[Package|Setup|Missing Dependency Information]
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\Program Files\Common Files\System\ado\msado26.tlb=
+C:\WINDOWS\system32\uxtheme.dll=
+G:\tinny\HMS\DB\Oracle 10-G Express.exe=
+
+[Package|Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCAL.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Setup|Files Added]
+g:\tinny\hms\db\oracle 10-g express.exe=
+g:\tinny\hms\db\db.txt=
+G:\tinny\HMS\config.txt=
+
+[Package|Setup|Files Removed]
+g:\tinny\hms\db\oracle 10-g express.exe=
+
+[Package|Setup|Files In Project]
+G:\tinny\HMS\HMS.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\uxtheme.dll=Yes
+C:\Program Files\Common Files\System\ado\msado26.tlb=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\MSCAL.OCX=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+G:\tinny\HMS\DB\Oracle 10-G Express.exe=No
+G:\tinny\HMS\DB\DB.txt=Yes
+G:\tinny\HMS\config.txt=Yes
+
+[Package|Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup|Install Locations]
+G:\tinny\HMS\HMS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\uxtheme.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado26.tlb=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+G:\tinny\HMS\DB\Oracle 10-G Express.exe=$(WinSysPath)
+G:\tinny\HMS\DB\DB.txt=$(AppPath)
+G:\tinny\HMS\config.txt=$(AppPath)
+
+[Package|Setup|Configure Shared Files]
+Applicable=Yes
+G:\tinny\HMS\HMS.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+G:\tinny\HMS\DB\DB.txt=No
+G:\tinny\HMS\config.txt=No
+
+[Package|Setup|Distribution]
+Type=single
+Size=
+Title=Hospital Management System (NEH)
+
+[Package|Setup|Package]
+PackageFolder=G:\tinny\HMS\Setup
+ProjectFolder=G:\tinny\HMS
+ServerSideCab=
+File1=G:\tinny\HMS\Setup\setup.exe
+File2=G:\tinny\HMS\Setup\Setup.Lst
+File3=G:\tinny\HMS\Setup\HMS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Setup|IconGroups]
+Group0=Hospital Management System
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Setup|Hospital Management System]
+Icon1=HMS.exe
+Title1=Hospital Management System
+StartIn1=$(AppPath)
+Key1=Icon1

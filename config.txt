@@ -1,0 +1,1 @@
+Driver={Oracle in XE}; User Id=pragya;Password=pragya
